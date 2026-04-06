@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafiato 25kg | Revestimento que Disfarça Imperfeições - Qualy Quimy</title>
+    <meta name="description" content="Descubra como o Grafiato 25kg transforma paredes feiras em acabamento perfeito. Proteção, beleza e durabilidade.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.2em;
+            margin-bottom: 15px;
+        }
+        
+        .subheader {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            opacity: 0.95;
+        }
+        
+        .promise {
+            background: rgba(255, 187, 0, 0.15);
+            padding: 15px 30px;
+            border-left: 4px solid #ffb700;
+            margin: 20px 0;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        
+        .btn-primary {
+            display: inline-block;
+            background: #ff6b35;
+            color: white;
+            padding: 16px 40px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1em;
+            transition: background 0.3s ease;
+            margin-top: 20px;
+        }
+        
+        .btn-primary:hover {
+            background: #e55a26;
+        }
+        
+        .section {
+            background: white;
+            padding: 40px 30px;
+            margin: 30px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .section h2 {
+            color: #1e3c72;
+            font-size: 1.8em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .before-after {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .before-after div {
+            text-align: center;
+        }
+        
+        .before {
+            border: 2px solid #ccc;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        
+        .after {
+            border: 2px solid #00b050;
+            padding: 20px;
+            background: #f0f9f0;
+            border-radius: 5px;
+        }
+        
+        .before h3 {
+            color: red;
+            margin-bottom: 10px;
+        }
+        
+        .after h3 {
+            color: #00b050;
+            margin-bottom: 10px;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .benefit {
+            padding: 20px;
+            background: #f8f9fa;
+            border-left: 4px solid #ff6b35;
+            border-radius: 5px;
+        }
+        
+        .benefit h3 {
+            color: #1e3c72;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .testimonial {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 4px solid #ffb700;
+        }
+        
+        .testimonial strong {
+            color: #1e3c72;
+        }
+        
+        .faq {
+            margin: 30px 0;
+        }
+        
+        .faq-item {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 4px solid #2a5298;
+        }
+        
+        .faq-q {
+            font-weight: 700;
+            color: #1e3c72;
+            margin-bottom: 8px;
+        }
+        
+        .faq-a {
+            color: #666;
+            font-size: 0.95em;
+        }
+        
+        .guarantee {
+            background: linear-gradient(135deg, #00b050 0%, #00d860 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        
+        .guarantee h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        
+        .cta-final {
+            background: linear-gradient(135deg, #ff6b35 0%, #ff8a50 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 8px;
+            margin: 40px 0;
+        }
+        
+        .cta-final h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        
+        .cta-final p {
+            font-size: 1.15em;
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            background: #1e3c72;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .before-after {
+                grid-template-columns: 1fr;
+            }
+            
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            header h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADLINE / PROMISE -->
+    <header>
+        <div class="container">
+            <h1>Paredes Lindas, Sem Imperfeições</h1>
+            <p class="subheader">Descubra Como Transformar Suas Paredes com Grafiato 25kg em 48 Horas</p>
+            <div class="promise">
+                ✨ Disfarça fissuras e imperfeições | Acabamento profissional garantido
+            </div>
+            <a href="https://wa.me/5511954950044" class="btn-primary">Quero Transformar Minhas Paredes</a>
+        </div>
+    </header>
+
+    <!-- PROBLEMA / AGITAÇÃO -->
+    <div class="section">
+        <h2>Você Tem Esse Problema?</h2>
+        
+        <div class="before-after">
+            <div class="before">
+                <h3>❌ ANTES</h3>
+                <p>Paredes com fissuras pequenas</p>
+                <p>Imperfeições visíveis</p>
+                <p>Acabamento ruim depois de pintura</p>
+                <p>Parede velha e feia</p>
+            </div>
+            <div class="after">
+                <h3>✅ DEPOIS</h3>
+                <p>Acabamento uniforme e liso</p>
+                <p>Imperfeições totalmente disfarçadas</p>
+                <p>Parede moderna e elegante</p>
+                <p>Proteção contra futuras fissuras</p>
+            </div>
+        </div>
+        
+        <p style="text-align: center; color: #666; font-size: 0.95em;">
+            A maioria das pessoas tenta apenas pintar por cima... mas o resultado é frustrante.
+            A pintura realça ainda mais as imperfeições! 😤
+        </p>
+    </div>
+
+    <!-- SOLUÇÃO -->
+    <div class="section">
+        <h2>A Solução: Grafiato 25kg</h2>
+        
+        <p style="text-align: center; margin-bottom: 30px;">
+            Grafiato é um revestimento texturizado acrílico que <strong>disfarça imperfeições, protege sua parede 
+            e oferece um acabamento decorativo profissional</strong> que dura anos.
+        </p>
+        
+        <div class="benefits-grid">
+            <div class="benefit">
+                <h3>🎨 Disfarça Imperfeições</h3>
+                <p>A textura cobre pequenas fissuras, buracos e marcas de forma elegante e profissional.</p>
+            </div>
+            <div class="benefit">
+                <h3>🛡️ Proteção Durável</h3>
+                <p>Alta resistência acrílica que protege contra fissuras futuras e intempéries.</p>
+            </div>
+            <div class="benefit">
+                <h3>✨ Acabamento Moderno</h3>
+                <p>Estética decorativa que valoriza qualquer ambiente interno ou externo.</p>
+            </div>
+            <div class="benefit">
+                <h3>⚡ Aplicação Rápida</h3>
+                <p>Seca ao toque em 4h, cura completa em 48h. Rápido e eficiente!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SOCIAL PROOF -->
+    <div class="section">
+        <h2>O Que Nossos Clientes Dizem</h2>
+        
+        <div class="testimonial">
+            <strong>"Ficou perfeito! As fissuras sumiram"</strong>
+            <p>— Paula S., São Paulo</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                Minha parede estava horrível, cheia de fissuras. Apliquei Grafiato 25kg e ficou lindíssimo. 
+                Todos que visitam a casa comentam do acabamento profissional!
+            </p>
+        </div>
+        
+        <div class="testimonial">
+            <strong>"Muito rendimento, economia real"</strong>
+            <p>— João P., Pintor Profissional</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                Como pintor, recomendo Grafiato para meus clientes. É econômico, rende bem e o resultado é 
+                sempre impecável. Voltei a comprar!
+            </p>
+        </div>
+        
+        <div class="testimonial">
+            <strong>"Fachada nova por metade do preço"</strong>
+            <p>— Maria R., Construtora</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                Usado em fachadas, Grafiato dá um acabamento profissional a fração do custo de revestimentos caros. 
+                Nossos clientes adoram!
+            </p>
+        </div>
+    </div>
+
+    <!-- ESPECIFICAÇÕES TÉCNICAS -->
+    <div class="section">
+        <h2>Especificações Técnicas</h2>
+        
+        <table style="width: 100%; border-collapse: collapse;">
+            <tr style="background: #1e3c72; color: white;">
+                <td style="padding: 10px; border: 1px solid #ddd;"><strong>Rendimento</strong></td>
+                <td style="padding: 10px; border: 1px solid #ddd;">≈ 4,5kg/m²</td>
+            </tr>
+            <tr style="background: #f8f9fa;">
+                <td style="padding: 10px; border: 1px solid #ddd;"><strong>Cobertura (25kg)</strong></td>
+                <td style="padding: 10px; border: 1px solid #ddd;">≈ 5,5m²</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd;"><strong>Secagem ao Toque</strong></td>
+                <td style="padding: 10px; border: 1px solid #ddd;">4 horas</td>
+            </tr>
+            <tr style="background: #f8f9fa;">
+                <td style="padding: 10px; border: 1px solid #ddd;"><strong>Cura Completa</strong></td>
+                <td style="padding: 10px; border: 1px solid #ddd;">48 horas</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd;"><strong>Ambientes</strong></td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Interno e Externo</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- FAQ -->
+    <div class="section">
+        <h2>Perguntas Frequentes</h2>
+        
+        <div class="faq">
+            <div class="faq-item">
+                <div class="faq-q">P: Quantos sacos de 25kg preciso para meu projeto?</div>
+                <div class="faq-a">R: Divida a área total em m² por 5,5. Exemplo: 11m² ÷ 5,5 = 2 sacos de 25kg.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-q">P: Posso aplicar em fachada externa?</div>
+                <div class="faq-a">R: Sim! Grafiato é perfeitamente resistente para fachadas externas. Oferece proteção e beleza.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-q">P: Preciso de selador antes?</div>
+                <div class="faq-a">R: Sim, é importante selar a parede antes de aplicar Grafiato para melhor aderência.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-q">P: Qual a diferença para textura comum?</div>
+                <div class="faq-a">R: Grafiato tem acabamento mais sofisticado, disfarça mais imperfeições e tem maior durabilidade.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GARANTIA -->
+    <div class="guarantee">
+        <h3>✅ Satisfação Garantida</h3>
+        <p>Se o Grafiato não ficar do seu jeito, resolvemos por você.<br/>
+        <strong>Somos uma empresa séria que quer sua satisfação!</strong></p>
+    </div>
+
+    <!-- CTA FINAL -->
+    <div class="cta-final">
+        <h2>Transforme Suas Paredes AGORA</h2>
+        <p>Não deixe para amanhã. Suas paredes podem estar lindas em 48 horas!</p>
+        <a href="https://wa.me/5511954950044" class="btn-primary" style="background: white; color: #ff6b35;">
+            Solicitar Orçamento Agora
+        </a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p><strong>Qualy Quimy</strong> — Materiais que Constroem o Futuro</p>
+            <p style="margin-top: 10px;">© 2026 Qualy Quimy. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
